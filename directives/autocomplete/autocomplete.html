@@ -1,0 +1,19 @@
+
+
+
+<div>
+        <input id="{{autocompleteDVM.id}}_value" ng-model="autocompleteDVM.searchStr" type="text" placeholder="{{autocompleteDVM.placeholder}}"  onmouseup="this.select();" ng-focus="autocompleteDVM.resetHideResults()" ng-blur="autocompleteDVM.hideResults()" />
+        <div id="{{autocompleteDVM.id}}_dropdown" class="angucomplete-dropdown" ng-if="autocompleteDVM.showDropdown">
+           <div  ng-show="autocompleteDVM.searching">searching</div>
+           <div  ng-show="autocompleteDVM.noResults(autocompleteDVM.searching,autocompleteDVM.results)"> No results found </div>
+           <div  ng-repeat="result in autocompleteDVM.results" ng-mousedown="autocompleteDVM.selectResult(result)" ng-mouseover="autocompleteDVM.hoverRow()">
+              <div ng-if="autocompleteDVM.imageField" >
+                 <img ng-if="result.image" ng-srcset="{{result.image}}" />
+                 <div ng-if="!result.orginalObject.pic" class="angucomplete-image-default"></div>
+              </div>
+              <div  ng-if="autocompleteDVM.matchClass" ng-bind-html="result.title"></div>
+              <div  ng-if="!autocompleteDVM.matchClass">{{ result.title }}</div>
+              <div ng-if="result.description" >{{result.description}}</div>
+           </div>
+        </div>
+</div>

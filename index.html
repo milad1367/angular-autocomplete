@@ -1,0 +1,39 @@
+<!doctype html>
+<html >
+   <!-- <link rel="stylesheet" href="todo.css"> -->
+   <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.0/angular.min.js"></script>
+        <link rel="stylesheet" href="./css/public.css">
+  </head>
+  <body ng-app="app">
+        <h2>Auto complete</h2>
+        
+        <div ng-controller="MainController as appVM">
+            
+            <div style="font-size: 2em;color:red">
+                {{appVM.message}}
+            </div>
+
+            <div style="padding: 1em;">
+            {{appVM.input}}
+            </div>
+
+            <autocomplete id="users"
+            placeholder="users"
+            pause="100"
+            selectedobject="appVM.input"
+            localdata="appVM.users"
+            searchfields="username"
+            titlefield="username"
+            minlength="1"
+            imagefield="img"
+            inputclass="form-control form-control-small"
+            on-blur = "appVM.addItem(user)"
+
+            ></autocomplete> 
+        </div>
+        <script src="app.js"></script>
+        <script src="controllers/main-controller.js"></script>
+        <script src="directives/autocomplete/autocomplete.js"></script>
+  </body>
+</html>
