@@ -13,6 +13,9 @@ This is a fork of Daryl Rowland's angucomplete (https://github.com/darylrowland/
 * Reads JSON data and allows you to specify which fields to use for display
 * Simple setup - e.g. to pull data from a server, just set the url parameter
 
+To see a demo go here: http://miladasghari.com/projects/angular-autocomplete/
+
+
 
 ### Getting Started
 Download the code, and add the autocomplete.js and autocomplete.html to a file in your page. Then add this directive to your index or module.
