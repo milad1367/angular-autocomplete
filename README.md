@@ -33,3 +33,22 @@ you can follow at this project.
             imagefield="img"
             inputclass="form-control form-control-small"
             on-blur = "appVM.addItem(user)"></autocomplete> 
+
+### Remote Usage
+
+```html
+<autocomplete id="users"
+            placeholder="users"
+            pause="100"
+            selectedobject="appVM.input"
+            localdata="appVM.users"
+            url="http://myserver.com/api/user/find?s="
+            searchfields="username"
+            titlefield="username"
+            minlength="1"
+            imagefield="img"
+            inputclass="form-control form-control-small"
+            on-blur = "appVM.addItem(user)"></autocomplete> 
+
+```
+
