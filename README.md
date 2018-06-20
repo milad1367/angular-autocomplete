@@ -15,10 +15,9 @@ This is a fork of Daryl Rowland's angucomplete (https://github.com/darylrowland/
 
 
 ### Getting Started
-Download the code, and include the angucomplete.js file in your page. Then add the angucomplete module to your Angular App file, e.g.
-```html
-var app = angular.module('app', ["angucomplete"]);
-```
+Download the code, and add the autocomplete.js and autocomplete.html to a file in your page. Then add this directive to your index or module.
+you can follow at this project.
+
 
 ### Local Usage
 
