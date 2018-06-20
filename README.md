@@ -19,7 +19,7 @@ Download the code, and add the autocomplete.js and autocomplete.html to a file i
 you can follow at this project.
 
 
-### Local Usage
+### Local Usage Example
 
 ```html
             <autocomplete id="users"
@@ -35,7 +35,7 @@ you can follow at this project.
             on-blur = "appVM.addItem(user)"></autocomplete> 
 
 ```
-### Remote Usage
+### Remote Usage Example
 
 
 ```html
