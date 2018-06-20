@@ -78,4 +78,4 @@ you can follow at this project.
 
 * clone this project
 * npm install -g http-server
-* cd into project folder and run http-server -o
+* cd into project folder and run ```http-server -o```
