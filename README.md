@@ -77,5 +77,5 @@ you can follow at this project.
 ### Running test suite
 
 * clone this project
-* npm install -g http-server
+* ```npm install -g http-server```
 * cd into project folder and run ```http-server -o```
