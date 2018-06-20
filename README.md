@@ -1,5 +1,5 @@
 # angular-autocomplete
-
+A simple but powerful AngularJS directive that allows you to quickly create autocomplete boxes that pull data either from a server or local variable.
 This is a fork of Daryl Rowland's angucomplete (https://github.com/darylrowland/angucomplete) with a bit of tweaks such as:
 
 * add onblur method
