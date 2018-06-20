@@ -74,4 +74,8 @@ you can follow at this project.
 | searchfields | The fields from your local data to search on (comma separate them) | No | title,description |
 
 
+### Running test suite
 
+* clone this project
+* npm install -g http-server
+* cd into project folder and run http-server -o
