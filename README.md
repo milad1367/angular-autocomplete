@@ -34,7 +34,9 @@ you can follow at this project.
             inputclass="form-control form-control-small"
             on-blur = "appVM.addItem(user)"></autocomplete> 
 
+```
 ### Remote Usage
+
 
 ```html
 <autocomplete id="users"
@@ -50,5 +52,5 @@ you can follow at this project.
             inputclass="form-control form-control-small"
             on-blur = "appVM.addItem(user)"></autocomplete> 
 
-```
+
 
