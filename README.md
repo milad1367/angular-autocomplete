@@ -73,7 +73,7 @@ you can follow at this project.
 | inputclass | The classes to use for styling the input box | No | form-control |
 | localdata | The local data variable to use from your controller. Should be an array of objects | No | countriesList |
 | searchfields | The fields from your local data to search on (comma separate them) | No | title,description |
-| onBlur | it is fired after select item | No |  |
+| onBlur | it is fired after select item | No | on-blur = "appVM.addItem(user) |
 
 
 ### Running test suite
